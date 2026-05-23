@@ -1,0 +1,1842 @@
+[
+  {
+    "id_documento_modelo": "DOC-001",
+    "tipo_documento": "laudo",
+    "titulo": "ECG — modelo interno 001",
+    "descricao": "Organizar achados técnicos, ritmo, frequência e observações para validação médica.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-001. Modelo interno fictício de ECG. Organizar achados técnicos, ritmo, frequência e observações para validação médica. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-001"
+  },
+  {
+    "id_documento_modelo": "DOC-002",
+    "tipo_documento": "laudo",
+    "titulo": "Radiografia de tórax — modelo interno 002",
+    "descricao": "Registrar técnica, achados e impressão preliminar a ser validada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-002. Modelo interno fictício de Radiografia de tórax. Registrar técnica, achados e impressão preliminar a ser validada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-002"
+  },
+  {
+    "id_documento_modelo": "DOC-003",
+    "tipo_documento": "receita_modelo",
+    "titulo": "Receita médica — modelo interno 003",
+    "descricao": "Demonstrar campos documentais sem preencher medicamento automaticamente.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-003. Modelo interno fictício de Receita médica. Demonstrar campos documentais sem preencher medicamento automaticamente. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-003"
+  },
+  {
+    "id_documento_modelo": "DOC-004",
+    "tipo_documento": "procedimento",
+    "titulo": "Admissão clínica — modelo interno 004",
+    "descricao": "Coletar queixa, alergias, medicações, sinais vitais e risco inicial.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-004. Modelo interno fictício de Admissão clínica. Coletar queixa, alergias, medicações, sinais vitais e risco inicial. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-004"
+  },
+  {
+    "id_documento_modelo": "DOC-005",
+    "tipo_documento": "relatorio",
+    "titulo": "Resumo de alta — modelo interno 005",
+    "descricao": "Organizar evolução, pendências, orientações e assinatura profissional.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-005. Modelo interno fictício de Resumo de alta. Organizar evolução, pendências, orientações e assinatura profissional. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-005"
+  },
+  {
+    "id_documento_modelo": "DOC-006",
+    "tipo_documento": "notificacao",
+    "titulo": "Resultado crítico — modelo interno 006",
+    "descricao": "Registrar exame crítico, valor, horário e profissional notificado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-006. Modelo interno fictício de Resultado crítico. Registrar exame crítico, valor, horário e profissional notificado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-006"
+  },
+  {
+    "id_documento_modelo": "DOC-007",
+    "tipo_documento": "checklist",
+    "titulo": "Sepse — modelo interno 007",
+    "descricao": "Reunir sinais vitais, foco provável, exames e horários.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-007. Modelo interno fictício de Sepse. Reunir sinais vitais, foco provável, exames e horários. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-007"
+  },
+  {
+    "id_documento_modelo": "DOC-008",
+    "tipo_documento": "checklist",
+    "titulo": "AVC — modelo interno 008",
+    "descricao": "Registrar início dos sintomas, déficits e equipe acionada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-008. Modelo interno fictício de AVC. Registrar início dos sintomas, déficits e equipe acionada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-008"
+  },
+  {
+    "id_documento_modelo": "DOC-009",
+    "tipo_documento": "relatorio",
+    "titulo": "Evolução clínica diária — modelo interno 009",
+    "descricao": "Consolidar estado geral, queixas, exames e plano validado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-009. Modelo interno fictício de Evolução clínica diária. Consolidar estado geral, queixas, exames e plano validado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-009"
+  },
+  {
+    "id_documento_modelo": "DOC-010",
+    "tipo_documento": "procedimento",
+    "titulo": "Plano multiprofissional — modelo interno 010",
+    "descricao": "Registrar ações de diferentes áreas assistenciais.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-010. Modelo interno fictício de Plano multiprofissional. Registrar ações de diferentes áreas assistenciais. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-010"
+  },
+  {
+    "id_documento_modelo": "DOC-011",
+    "tipo_documento": "triagem",
+    "titulo": "Classificação de risco — modelo interno 011",
+    "descricao": "Registrar queixa, sinais vitais, prioridade e encaminhamento.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-011. Modelo interno fictício de Classificação de risco. Registrar queixa, sinais vitais, prioridade e encaminhamento. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-011"
+  },
+  {
+    "id_documento_modelo": "DOC-012",
+    "tipo_documento": "laudo",
+    "titulo": "Ultrassonografia abdominal — modelo interno 012",
+    "descricao": "Organizar indicação, técnica, achados e conclusão validada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-012. Modelo interno fictício de Ultrassonografia abdominal. Organizar indicação, técnica, achados e conclusão validada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-012"
+  },
+  {
+    "id_documento_modelo": "DOC-013",
+    "tipo_documento": "checklist",
+    "titulo": "Queda em idoso — modelo interno 013",
+    "descricao": "Registrar circunstâncias, medicações, trauma e estado mental.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-013. Modelo interno fictício de Queda em idoso. Registrar circunstâncias, medicações, trauma e estado mental. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-013"
+  },
+  {
+    "id_documento_modelo": "DOC-014",
+    "tipo_documento": "checklist",
+    "titulo": "Hipoglicemia — modelo interno 014",
+    "descricao": "Registrar glicemia inicial, sintomas, rechecagem e profissional acionado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-014. Modelo interno fictício de Hipoglicemia. Registrar glicemia inicial, sintomas, rechecagem e profissional acionado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-014"
+  },
+  {
+    "id_documento_modelo": "DOC-015",
+    "tipo_documento": "checklist",
+    "titulo": "Dispneia — modelo interno 015",
+    "descricao": "Organizar saturação, frequência respiratória, esforço e encaminhamento.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-015. Modelo interno fictício de Dispneia. Organizar saturação, frequência respiratória, esforço e encaminhamento. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-015"
+  },
+  {
+    "id_documento_modelo": "DOC-016",
+    "tipo_documento": "auditoria",
+    "titulo": "Justificativa da resposta — modelo interno 016",
+    "descricao": "Registrar protocolo, trecho de referência e nível de confiança.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-016. Modelo interno fictício de Justificativa da resposta. Registrar protocolo, trecho de referência e nível de confiança. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-016"
+  },
+  {
+    "id_documento_modelo": "DOC-017",
+    "tipo_documento": "laudo",
+    "titulo": "ECG — modelo interno 017",
+    "descricao": "Organizar achados técnicos, ritmo, frequência e observações para validação médica.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-017. Modelo interno fictício de ECG. Organizar achados técnicos, ritmo, frequência e observações para validação médica. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-017"
+  },
+  {
+    "id_documento_modelo": "DOC-018",
+    "tipo_documento": "laudo",
+    "titulo": "Radiografia de tórax — modelo interno 018",
+    "descricao": "Registrar técnica, achados e impressão preliminar a ser validada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-018. Modelo interno fictício de Radiografia de tórax. Registrar técnica, achados e impressão preliminar a ser validada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-018"
+  },
+  {
+    "id_documento_modelo": "DOC-019",
+    "tipo_documento": "receita_modelo",
+    "titulo": "Receita médica — modelo interno 019",
+    "descricao": "Demonstrar campos documentais sem preencher medicamento automaticamente.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-019. Modelo interno fictício de Receita médica. Demonstrar campos documentais sem preencher medicamento automaticamente. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-019"
+  },
+  {
+    "id_documento_modelo": "DOC-020",
+    "tipo_documento": "procedimento",
+    "titulo": "Admissão clínica — modelo interno 020",
+    "descricao": "Coletar queixa, alergias, medicações, sinais vitais e risco inicial.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-020. Modelo interno fictício de Admissão clínica. Coletar queixa, alergias, medicações, sinais vitais e risco inicial. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-020"
+  },
+  {
+    "id_documento_modelo": "DOC-021",
+    "tipo_documento": "relatorio",
+    "titulo": "Resumo de alta — modelo interno 021",
+    "descricao": "Organizar evolução, pendências, orientações e assinatura profissional.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-021. Modelo interno fictício de Resumo de alta. Organizar evolução, pendências, orientações e assinatura profissional. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-021"
+  },
+  {
+    "id_documento_modelo": "DOC-022",
+    "tipo_documento": "notificacao",
+    "titulo": "Resultado crítico — modelo interno 022",
+    "descricao": "Registrar exame crítico, valor, horário e profissional notificado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-022. Modelo interno fictício de Resultado crítico. Registrar exame crítico, valor, horário e profissional notificado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-022"
+  },
+  {
+    "id_documento_modelo": "DOC-023",
+    "tipo_documento": "checklist",
+    "titulo": "Sepse — modelo interno 023",
+    "descricao": "Reunir sinais vitais, foco provável, exames e horários.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-023. Modelo interno fictício de Sepse. Reunir sinais vitais, foco provável, exames e horários. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-023"
+  },
+  {
+    "id_documento_modelo": "DOC-024",
+    "tipo_documento": "checklist",
+    "titulo": "AVC — modelo interno 024",
+    "descricao": "Registrar início dos sintomas, déficits e equipe acionada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-024. Modelo interno fictício de AVC. Registrar início dos sintomas, déficits e equipe acionada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-024"
+  },
+  {
+    "id_documento_modelo": "DOC-025",
+    "tipo_documento": "relatorio",
+    "titulo": "Evolução clínica diária — modelo interno 025",
+    "descricao": "Consolidar estado geral, queixas, exames e plano validado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-025. Modelo interno fictício de Evolução clínica diária. Consolidar estado geral, queixas, exames e plano validado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-025"
+  },
+  {
+    "id_documento_modelo": "DOC-026",
+    "tipo_documento": "procedimento",
+    "titulo": "Plano multiprofissional — modelo interno 026",
+    "descricao": "Registrar ações de diferentes áreas assistenciais.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-026. Modelo interno fictício de Plano multiprofissional. Registrar ações de diferentes áreas assistenciais. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-026"
+  },
+  {
+    "id_documento_modelo": "DOC-027",
+    "tipo_documento": "triagem",
+    "titulo": "Classificação de risco — modelo interno 027",
+    "descricao": "Registrar queixa, sinais vitais, prioridade e encaminhamento.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-027. Modelo interno fictício de Classificação de risco. Registrar queixa, sinais vitais, prioridade e encaminhamento. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-027"
+  },
+  {
+    "id_documento_modelo": "DOC-028",
+    "tipo_documento": "laudo",
+    "titulo": "Ultrassonografia abdominal — modelo interno 028",
+    "descricao": "Organizar indicação, técnica, achados e conclusão validada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-028. Modelo interno fictício de Ultrassonografia abdominal. Organizar indicação, técnica, achados e conclusão validada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-028"
+  },
+  {
+    "id_documento_modelo": "DOC-029",
+    "tipo_documento": "checklist",
+    "titulo": "Queda em idoso — modelo interno 029",
+    "descricao": "Registrar circunstâncias, medicações, trauma e estado mental.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-029. Modelo interno fictício de Queda em idoso. Registrar circunstâncias, medicações, trauma e estado mental. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-029"
+  },
+  {
+    "id_documento_modelo": "DOC-030",
+    "tipo_documento": "checklist",
+    "titulo": "Hipoglicemia — modelo interno 030",
+    "descricao": "Registrar glicemia inicial, sintomas, rechecagem e profissional acionado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-030. Modelo interno fictício de Hipoglicemia. Registrar glicemia inicial, sintomas, rechecagem e profissional acionado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-030"
+  },
+  {
+    "id_documento_modelo": "DOC-031",
+    "tipo_documento": "checklist",
+    "titulo": "Dispneia — modelo interno 031",
+    "descricao": "Organizar saturação, frequência respiratória, esforço e encaminhamento.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-031. Modelo interno fictício de Dispneia. Organizar saturação, frequência respiratória, esforço e encaminhamento. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-031"
+  },
+  {
+    "id_documento_modelo": "DOC-032",
+    "tipo_documento": "auditoria",
+    "titulo": "Justificativa da resposta — modelo interno 032",
+    "descricao": "Registrar protocolo, trecho de referência e nível de confiança.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-032. Modelo interno fictício de Justificativa da resposta. Registrar protocolo, trecho de referência e nível de confiança. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-032"
+  },
+  {
+    "id_documento_modelo": "DOC-033",
+    "tipo_documento": "laudo",
+    "titulo": "ECG — modelo interno 033",
+    "descricao": "Organizar achados técnicos, ritmo, frequência e observações para validação médica.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-033. Modelo interno fictício de ECG. Organizar achados técnicos, ritmo, frequência e observações para validação médica. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-033"
+  },
+  {
+    "id_documento_modelo": "DOC-034",
+    "tipo_documento": "laudo",
+    "titulo": "Radiografia de tórax — modelo interno 034",
+    "descricao": "Registrar técnica, achados e impressão preliminar a ser validada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-034. Modelo interno fictício de Radiografia de tórax. Registrar técnica, achados e impressão preliminar a ser validada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-034"
+  },
+  {
+    "id_documento_modelo": "DOC-035",
+    "tipo_documento": "receita_modelo",
+    "titulo": "Receita médica — modelo interno 035",
+    "descricao": "Demonstrar campos documentais sem preencher medicamento automaticamente.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-035. Modelo interno fictício de Receita médica. Demonstrar campos documentais sem preencher medicamento automaticamente. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-035"
+  },
+  {
+    "id_documento_modelo": "DOC-036",
+    "tipo_documento": "procedimento",
+    "titulo": "Admissão clínica — modelo interno 036",
+    "descricao": "Coletar queixa, alergias, medicações, sinais vitais e risco inicial.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-036. Modelo interno fictício de Admissão clínica. Coletar queixa, alergias, medicações, sinais vitais e risco inicial. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-036"
+  },
+  {
+    "id_documento_modelo": "DOC-037",
+    "tipo_documento": "relatorio",
+    "titulo": "Resumo de alta — modelo interno 037",
+    "descricao": "Organizar evolução, pendências, orientações e assinatura profissional.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-037. Modelo interno fictício de Resumo de alta. Organizar evolução, pendências, orientações e assinatura profissional. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-037"
+  },
+  {
+    "id_documento_modelo": "DOC-038",
+    "tipo_documento": "notificacao",
+    "titulo": "Resultado crítico — modelo interno 038",
+    "descricao": "Registrar exame crítico, valor, horário e profissional notificado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-038. Modelo interno fictício de Resultado crítico. Registrar exame crítico, valor, horário e profissional notificado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-038"
+  },
+  {
+    "id_documento_modelo": "DOC-039",
+    "tipo_documento": "checklist",
+    "titulo": "Sepse — modelo interno 039",
+    "descricao": "Reunir sinais vitais, foco provável, exames e horários.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-039. Modelo interno fictício de Sepse. Reunir sinais vitais, foco provável, exames e horários. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-039"
+  },
+  {
+    "id_documento_modelo": "DOC-040",
+    "tipo_documento": "checklist",
+    "titulo": "AVC — modelo interno 040",
+    "descricao": "Registrar início dos sintomas, déficits e equipe acionada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-040. Modelo interno fictício de AVC. Registrar início dos sintomas, déficits e equipe acionada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-040"
+  },
+  {
+    "id_documento_modelo": "DOC-041",
+    "tipo_documento": "relatorio",
+    "titulo": "Evolução clínica diária — modelo interno 041",
+    "descricao": "Consolidar estado geral, queixas, exames e plano validado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-041. Modelo interno fictício de Evolução clínica diária. Consolidar estado geral, queixas, exames e plano validado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-041"
+  },
+  {
+    "id_documento_modelo": "DOC-042",
+    "tipo_documento": "procedimento",
+    "titulo": "Plano multiprofissional — modelo interno 042",
+    "descricao": "Registrar ações de diferentes áreas assistenciais.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-042. Modelo interno fictício de Plano multiprofissional. Registrar ações de diferentes áreas assistenciais. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-042"
+  },
+  {
+    "id_documento_modelo": "DOC-043",
+    "tipo_documento": "triagem",
+    "titulo": "Classificação de risco — modelo interno 043",
+    "descricao": "Registrar queixa, sinais vitais, prioridade e encaminhamento.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-043. Modelo interno fictício de Classificação de risco. Registrar queixa, sinais vitais, prioridade e encaminhamento. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-043"
+  },
+  {
+    "id_documento_modelo": "DOC-044",
+    "tipo_documento": "laudo",
+    "titulo": "Ultrassonografia abdominal — modelo interno 044",
+    "descricao": "Organizar indicação, técnica, achados e conclusão validada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-044. Modelo interno fictício de Ultrassonografia abdominal. Organizar indicação, técnica, achados e conclusão validada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-044"
+  },
+  {
+    "id_documento_modelo": "DOC-045",
+    "tipo_documento": "checklist",
+    "titulo": "Queda em idoso — modelo interno 045",
+    "descricao": "Registrar circunstâncias, medicações, trauma e estado mental.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-045. Modelo interno fictício de Queda em idoso. Registrar circunstâncias, medicações, trauma e estado mental. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-045"
+  },
+  {
+    "id_documento_modelo": "DOC-046",
+    "tipo_documento": "checklist",
+    "titulo": "Hipoglicemia — modelo interno 046",
+    "descricao": "Registrar glicemia inicial, sintomas, rechecagem e profissional acionado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-046. Modelo interno fictício de Hipoglicemia. Registrar glicemia inicial, sintomas, rechecagem e profissional acionado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-046"
+  },
+  {
+    "id_documento_modelo": "DOC-047",
+    "tipo_documento": "checklist",
+    "titulo": "Dispneia — modelo interno 047",
+    "descricao": "Organizar saturação, frequência respiratória, esforço e encaminhamento.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-047. Modelo interno fictício de Dispneia. Organizar saturação, frequência respiratória, esforço e encaminhamento. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-047"
+  },
+  {
+    "id_documento_modelo": "DOC-048",
+    "tipo_documento": "auditoria",
+    "titulo": "Justificativa da resposta — modelo interno 048",
+    "descricao": "Registrar protocolo, trecho de referência e nível de confiança.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-048. Modelo interno fictício de Justificativa da resposta. Registrar protocolo, trecho de referência e nível de confiança. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-048"
+  },
+  {
+    "id_documento_modelo": "DOC-049",
+    "tipo_documento": "laudo",
+    "titulo": "ECG — modelo interno 049",
+    "descricao": "Organizar achados técnicos, ritmo, frequência e observações para validação médica.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-049. Modelo interno fictício de ECG. Organizar achados técnicos, ritmo, frequência e observações para validação médica. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-049"
+  },
+  {
+    "id_documento_modelo": "DOC-050",
+    "tipo_documento": "laudo",
+    "titulo": "Radiografia de tórax — modelo interno 050",
+    "descricao": "Registrar técnica, achados e impressão preliminar a ser validada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-050. Modelo interno fictício de Radiografia de tórax. Registrar técnica, achados e impressão preliminar a ser validada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-050"
+  },
+  {
+    "id_documento_modelo": "DOC-051",
+    "tipo_documento": "receita_modelo",
+    "titulo": "Receita médica — modelo interno 051",
+    "descricao": "Demonstrar campos documentais sem preencher medicamento automaticamente.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-051. Modelo interno fictício de Receita médica. Demonstrar campos documentais sem preencher medicamento automaticamente. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-051"
+  },
+  {
+    "id_documento_modelo": "DOC-052",
+    "tipo_documento": "procedimento",
+    "titulo": "Admissão clínica — modelo interno 052",
+    "descricao": "Coletar queixa, alergias, medicações, sinais vitais e risco inicial.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-052. Modelo interno fictício de Admissão clínica. Coletar queixa, alergias, medicações, sinais vitais e risco inicial. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-052"
+  },
+  {
+    "id_documento_modelo": "DOC-053",
+    "tipo_documento": "relatorio",
+    "titulo": "Resumo de alta — modelo interno 053",
+    "descricao": "Organizar evolução, pendências, orientações e assinatura profissional.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-053. Modelo interno fictício de Resumo de alta. Organizar evolução, pendências, orientações e assinatura profissional. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-053"
+  },
+  {
+    "id_documento_modelo": "DOC-054",
+    "tipo_documento": "notificacao",
+    "titulo": "Resultado crítico — modelo interno 054",
+    "descricao": "Registrar exame crítico, valor, horário e profissional notificado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-054. Modelo interno fictício de Resultado crítico. Registrar exame crítico, valor, horário e profissional notificado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-054"
+  },
+  {
+    "id_documento_modelo": "DOC-055",
+    "tipo_documento": "checklist",
+    "titulo": "Sepse — modelo interno 055",
+    "descricao": "Reunir sinais vitais, foco provável, exames e horários.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-055. Modelo interno fictício de Sepse. Reunir sinais vitais, foco provável, exames e horários. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-055"
+  },
+  {
+    "id_documento_modelo": "DOC-056",
+    "tipo_documento": "checklist",
+    "titulo": "AVC — modelo interno 056",
+    "descricao": "Registrar início dos sintomas, déficits e equipe acionada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-056. Modelo interno fictício de AVC. Registrar início dos sintomas, déficits e equipe acionada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-056"
+  },
+  {
+    "id_documento_modelo": "DOC-057",
+    "tipo_documento": "relatorio",
+    "titulo": "Evolução clínica diária — modelo interno 057",
+    "descricao": "Consolidar estado geral, queixas, exames e plano validado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-057. Modelo interno fictício de Evolução clínica diária. Consolidar estado geral, queixas, exames e plano validado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-057"
+  },
+  {
+    "id_documento_modelo": "DOC-058",
+    "tipo_documento": "procedimento",
+    "titulo": "Plano multiprofissional — modelo interno 058",
+    "descricao": "Registrar ações de diferentes áreas assistenciais.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-058. Modelo interno fictício de Plano multiprofissional. Registrar ações de diferentes áreas assistenciais. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-058"
+  },
+  {
+    "id_documento_modelo": "DOC-059",
+    "tipo_documento": "triagem",
+    "titulo": "Classificação de risco — modelo interno 059",
+    "descricao": "Registrar queixa, sinais vitais, prioridade e encaminhamento.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-059. Modelo interno fictício de Classificação de risco. Registrar queixa, sinais vitais, prioridade e encaminhamento. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-059"
+  },
+  {
+    "id_documento_modelo": "DOC-060",
+    "tipo_documento": "laudo",
+    "titulo": "Ultrassonografia abdominal — modelo interno 060",
+    "descricao": "Organizar indicação, técnica, achados e conclusão validada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-060. Modelo interno fictício de Ultrassonografia abdominal. Organizar indicação, técnica, achados e conclusão validada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-060"
+  },
+  {
+    "id_documento_modelo": "DOC-061",
+    "tipo_documento": "checklist",
+    "titulo": "Queda em idoso — modelo interno 061",
+    "descricao": "Registrar circunstâncias, medicações, trauma e estado mental.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-061. Modelo interno fictício de Queda em idoso. Registrar circunstâncias, medicações, trauma e estado mental. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-061"
+  },
+  {
+    "id_documento_modelo": "DOC-062",
+    "tipo_documento": "checklist",
+    "titulo": "Hipoglicemia — modelo interno 062",
+    "descricao": "Registrar glicemia inicial, sintomas, rechecagem e profissional acionado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-062. Modelo interno fictício de Hipoglicemia. Registrar glicemia inicial, sintomas, rechecagem e profissional acionado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-062"
+  },
+  {
+    "id_documento_modelo": "DOC-063",
+    "tipo_documento": "checklist",
+    "titulo": "Dispneia — modelo interno 063",
+    "descricao": "Organizar saturação, frequência respiratória, esforço e encaminhamento.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-063. Modelo interno fictício de Dispneia. Organizar saturação, frequência respiratória, esforço e encaminhamento. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-063"
+  },
+  {
+    "id_documento_modelo": "DOC-064",
+    "tipo_documento": "auditoria",
+    "titulo": "Justificativa da resposta — modelo interno 064",
+    "descricao": "Registrar protocolo, trecho de referência e nível de confiança.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-064. Modelo interno fictício de Justificativa da resposta. Registrar protocolo, trecho de referência e nível de confiança. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-064"
+  },
+  {
+    "id_documento_modelo": "DOC-065",
+    "tipo_documento": "laudo",
+    "titulo": "ECG — modelo interno 065",
+    "descricao": "Organizar achados técnicos, ritmo, frequência e observações para validação médica.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-065. Modelo interno fictício de ECG. Organizar achados técnicos, ritmo, frequência e observações para validação médica. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-065"
+  },
+  {
+    "id_documento_modelo": "DOC-066",
+    "tipo_documento": "laudo",
+    "titulo": "Radiografia de tórax — modelo interno 066",
+    "descricao": "Registrar técnica, achados e impressão preliminar a ser validada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-066. Modelo interno fictício de Radiografia de tórax. Registrar técnica, achados e impressão preliminar a ser validada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-066"
+  },
+  {
+    "id_documento_modelo": "DOC-067",
+    "tipo_documento": "receita_modelo",
+    "titulo": "Receita médica — modelo interno 067",
+    "descricao": "Demonstrar campos documentais sem preencher medicamento automaticamente.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-067. Modelo interno fictício de Receita médica. Demonstrar campos documentais sem preencher medicamento automaticamente. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-067"
+  },
+  {
+    "id_documento_modelo": "DOC-068",
+    "tipo_documento": "procedimento",
+    "titulo": "Admissão clínica — modelo interno 068",
+    "descricao": "Coletar queixa, alergias, medicações, sinais vitais e risco inicial.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-068. Modelo interno fictício de Admissão clínica. Coletar queixa, alergias, medicações, sinais vitais e risco inicial. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-068"
+  },
+  {
+    "id_documento_modelo": "DOC-069",
+    "tipo_documento": "relatorio",
+    "titulo": "Resumo de alta — modelo interno 069",
+    "descricao": "Organizar evolução, pendências, orientações e assinatura profissional.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-069. Modelo interno fictício de Resumo de alta. Organizar evolução, pendências, orientações e assinatura profissional. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-069"
+  },
+  {
+    "id_documento_modelo": "DOC-070",
+    "tipo_documento": "notificacao",
+    "titulo": "Resultado crítico — modelo interno 070",
+    "descricao": "Registrar exame crítico, valor, horário e profissional notificado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-070. Modelo interno fictício de Resultado crítico. Registrar exame crítico, valor, horário e profissional notificado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-070"
+  },
+  {
+    "id_documento_modelo": "DOC-071",
+    "tipo_documento": "checklist",
+    "titulo": "Sepse — modelo interno 071",
+    "descricao": "Reunir sinais vitais, foco provável, exames e horários.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-071. Modelo interno fictício de Sepse. Reunir sinais vitais, foco provável, exames e horários. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-071"
+  },
+  {
+    "id_documento_modelo": "DOC-072",
+    "tipo_documento": "checklist",
+    "titulo": "AVC — modelo interno 072",
+    "descricao": "Registrar início dos sintomas, déficits e equipe acionada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-072. Modelo interno fictício de AVC. Registrar início dos sintomas, déficits e equipe acionada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-072"
+  },
+  {
+    "id_documento_modelo": "DOC-073",
+    "tipo_documento": "relatorio",
+    "titulo": "Evolução clínica diária — modelo interno 073",
+    "descricao": "Consolidar estado geral, queixas, exames e plano validado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-073. Modelo interno fictício de Evolução clínica diária. Consolidar estado geral, queixas, exames e plano validado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-073"
+  },
+  {
+    "id_documento_modelo": "DOC-074",
+    "tipo_documento": "procedimento",
+    "titulo": "Plano multiprofissional — modelo interno 074",
+    "descricao": "Registrar ações de diferentes áreas assistenciais.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-074. Modelo interno fictício de Plano multiprofissional. Registrar ações de diferentes áreas assistenciais. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-074"
+  },
+  {
+    "id_documento_modelo": "DOC-075",
+    "tipo_documento": "triagem",
+    "titulo": "Classificação de risco — modelo interno 075",
+    "descricao": "Registrar queixa, sinais vitais, prioridade e encaminhamento.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-075. Modelo interno fictício de Classificação de risco. Registrar queixa, sinais vitais, prioridade e encaminhamento. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-075"
+  },
+  {
+    "id_documento_modelo": "DOC-076",
+    "tipo_documento": "laudo",
+    "titulo": "Ultrassonografia abdominal — modelo interno 076",
+    "descricao": "Organizar indicação, técnica, achados e conclusão validada.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-076. Modelo interno fictício de Ultrassonografia abdominal. Organizar indicação, técnica, achados e conclusão validada. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-076"
+  },
+  {
+    "id_documento_modelo": "DOC-077",
+    "tipo_documento": "checklist",
+    "titulo": "Queda em idoso — modelo interno 077",
+    "descricao": "Registrar circunstâncias, medicações, trauma e estado mental.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-077. Modelo interno fictício de Queda em idoso. Registrar circunstâncias, medicações, trauma e estado mental. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-077"
+  },
+  {
+    "id_documento_modelo": "DOC-078",
+    "tipo_documento": "checklist",
+    "titulo": "Hipoglicemia — modelo interno 078",
+    "descricao": "Registrar glicemia inicial, sintomas, rechecagem e profissional acionado.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-078. Modelo interno fictício de Hipoglicemia. Registrar glicemia inicial, sintomas, rechecagem e profissional acionado. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-078"
+  },
+  {
+    "id_documento_modelo": "DOC-079",
+    "tipo_documento": "checklist",
+    "titulo": "Dispneia — modelo interno 079",
+    "descricao": "Organizar saturação, frequência respiratória, esforço e encaminhamento.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-079. Modelo interno fictício de Dispneia. Organizar saturação, frequência respiratória, esforço e encaminhamento. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-079"
+  },
+  {
+    "id_documento_modelo": "DOC-080",
+    "tipo_documento": "auditoria",
+    "titulo": "Justificativa da resposta — modelo interno 080",
+    "descricao": "Registrar protocolo, trecho de referência e nível de confiança.",
+    "campos_sugeridos": [
+      "id_paciente_sintetico",
+      "dados_objetivos_disponiveis",
+      "observacoes_relevantes",
+      "protocolo_ou_fonte_relacionada",
+      "responsavel_pela_revisao",
+      "data_hora_do_registro"
+    ],
+    "texto_para_rag": "DOC-080. Modelo interno fictício de Justificativa da resposta. Registrar protocolo, trecho de referência e nível de confiança. Este documento serve para demonstração acadêmica. O assistente pode organizar campos, mas não deve assinar, interpretar de forma definitiva ou gerar documento clínico final sem revisão humana.",
+    "limites_de_uso": [
+      "não usar como documento médico real",
+      "não preencher prescrição automaticamente",
+      "não assinar em nome de profissional",
+      "exigir revisão humana"
+    ],
+    "revisao_humana_obrigatoria": true,
+    "fonte_simulada": "Hospital Fictício São Lucas | Template Interno | DOC-080"
+  }
+]

@@ -1,0 +1,3432 @@
+[
+  {
+    "id_protocolo": "PROT-001",
+    "versao": "1.1",
+    "area_clinica": "Cardiologia",
+    "titulo": "Dor torácica — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar dor torácica ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "dor",
+      "dor torácica",
+      "torácica"
+    ],
+    "texto_para_rag": "PROT-001 - Cardiologia. Protocolo simulado para dor torácica. Aplicável quando o caso envolver dor torácica ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-001",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-002",
+    "versao": "1.1",
+    "area_clinica": "Cardiologia",
+    "titulo": "Palpitações — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar palpitações ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "palpitações"
+    ],
+    "texto_para_rag": "PROT-002 - Cardiologia. Protocolo simulado para palpitações. Aplicável quando o caso envolver palpitações ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-002",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-003",
+    "versao": "1.1",
+    "area_clinica": "Cardiologia",
+    "titulo": "Síncope — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar síncope ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "síncope"
+    ],
+    "texto_para_rag": "PROT-003 - Cardiologia. Protocolo simulado para síncope. Aplicável quando o caso envolver síncope ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-003",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-004",
+    "versao": "1.1",
+    "area_clinica": "Cardiologia",
+    "titulo": "Pressão arterial elevada — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar pressão arterial elevada ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "arterial",
+      "elevada",
+      "pressão",
+      "pressão arterial elevada"
+    ],
+    "texto_para_rag": "PROT-004 - Cardiologia. Protocolo simulado para pressão arterial elevada. Aplicável quando o caso envolver pressão arterial elevada ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-004",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-005",
+    "versao": "1.1",
+    "area_clinica": "Cardiologia",
+    "titulo": "Edema em membros inferiores — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar edema em membros inferiores ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "edema",
+      "edema em membros inferiores",
+      "inferiores",
+      "membros"
+    ],
+    "texto_para_rag": "PROT-005 - Cardiologia. Protocolo simulado para edema em membros inferiores. Aplicável quando o caso envolver edema em membros inferiores ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-005",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-006",
+    "versao": "1.1",
+    "area_clinica": "Endocrinologia",
+    "titulo": "Hipoglicemia — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar hipoglicemia ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "hipoglicemia"
+    ],
+    "texto_para_rag": "PROT-006 - Endocrinologia. Protocolo simulado para hipoglicemia. Aplicável quando o caso envolver hipoglicemia ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-006",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-007",
+    "versao": "1.1",
+    "area_clinica": "Endocrinologia",
+    "titulo": "Hiperglicemia — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar hiperglicemia ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "hiperglicemia"
+    ],
+    "texto_para_rag": "PROT-007 - Endocrinologia. Protocolo simulado para hiperglicemia. Aplicável quando o caso envolver hiperglicemia ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-007",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-008",
+    "versao": "1.1",
+    "area_clinica": "Endocrinologia",
+    "titulo": "Descompensação diabética — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar descompensação diabética ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "descompensação",
+      "descompensação diabética",
+      "diabética"
+    ],
+    "texto_para_rag": "PROT-008 - Endocrinologia. Protocolo simulado para descompensação diabética. Aplicável quando o caso envolver descompensação diabética ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-008",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-009",
+    "versao": "1.1",
+    "area_clinica": "Endocrinologia",
+    "titulo": "Alteração tireoidiana — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar alteração tireoidiana ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "alteração",
+      "alteração tireoidiana",
+      "tireoidiana"
+    ],
+    "texto_para_rag": "PROT-009 - Endocrinologia. Protocolo simulado para alteração tireoidiana. Aplicável quando o caso envolver alteração tireoidiana ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-009",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-010",
+    "versao": "1.1",
+    "area_clinica": "Endocrinologia",
+    "titulo": "Perda de peso inexplicada — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar perda de peso inexplicada ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "inexplicada",
+      "perda",
+      "perda de peso inexplicada",
+      "peso"
+    ],
+    "texto_para_rag": "PROT-010 - Endocrinologia. Protocolo simulado para perda de peso inexplicada. Aplicável quando o caso envolver perda de peso inexplicada ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-010",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-011",
+    "versao": "1.1",
+    "area_clinica": "Pneumologia",
+    "titulo": "Dispneia — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar dispneia ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "dispneia"
+    ],
+    "texto_para_rag": "PROT-011 - Pneumologia. Protocolo simulado para dispneia. Aplicável quando o caso envolver dispneia ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-011",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-012",
+    "versao": "1.1",
+    "area_clinica": "Pneumologia",
+    "titulo": "Baixa saturação — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar baixa saturação ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "baixa",
+      "baixa saturação",
+      "saturação"
+    ],
+    "texto_para_rag": "PROT-012 - Pneumologia. Protocolo simulado para baixa saturação. Aplicável quando o caso envolver baixa saturação ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-012",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-013",
+    "versao": "1.1",
+    "area_clinica": "Pneumologia",
+    "titulo": "Tosse persistente — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar tosse persistente ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "persistente",
+      "tosse",
+      "tosse persistente"
+    ],
+    "texto_para_rag": "PROT-013 - Pneumologia. Protocolo simulado para tosse persistente. Aplicável quando o caso envolver tosse persistente ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-013",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-014",
+    "versao": "1.1",
+    "area_clinica": "Pneumologia",
+    "titulo": "Chiado no peito — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar chiado no peito ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "chiado",
+      "chiado no peito",
+      "peito"
+    ],
+    "texto_para_rag": "PROT-014 - Pneumologia. Protocolo simulado para chiado no peito. Aplicável quando o caso envolver chiado no peito ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-014",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-015",
+    "versao": "1.1",
+    "area_clinica": "Pneumologia",
+    "titulo": "Dor pleurítica — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar dor pleurítica ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "dor",
+      "dor pleurítica",
+      "pleurítica"
+    ],
+    "texto_para_rag": "PROT-015 - Pneumologia. Protocolo simulado para dor pleurítica. Aplicável quando o caso envolver dor pleurítica ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-015",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-016",
+    "versao": "1.1",
+    "area_clinica": "Infectologia",
+    "titulo": "Febre com hipotensão — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar febre com hipotensão ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "com",
+      "febre",
+      "febre com hipotensão",
+      "hipotensão"
+    ],
+    "texto_para_rag": "PROT-016 - Infectologia. Protocolo simulado para febre com hipotensão. Aplicável quando o caso envolver febre com hipotensão ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-016",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-017",
+    "versao": "1.1",
+    "area_clinica": "Infectologia",
+    "titulo": "Suspeita de sepse — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar suspeita de sepse ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "sepse",
+      "suspeita",
+      "suspeita de sepse"
+    ],
+    "texto_para_rag": "PROT-017 - Infectologia. Protocolo simulado para suspeita de sepse. Aplicável quando o caso envolver suspeita de sepse ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-017",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-018",
+    "versao": "1.1",
+    "area_clinica": "Infectologia",
+    "titulo": "Infecção pós-procedimento — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar infecção pós-procedimento ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "infecção",
+      "infecção pós-procedimento",
+      "pós-procedimento"
+    ],
+    "texto_para_rag": "PROT-018 - Infectologia. Protocolo simulado para infecção pós-procedimento. Aplicável quando o caso envolver infecção pós-procedimento ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-018",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-019",
+    "versao": "1.1",
+    "area_clinica": "Infectologia",
+    "titulo": "Necessidade de isolamento — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar necessidade de isolamento ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "isolamento",
+      "necessidade",
+      "necessidade de isolamento"
+    ],
+    "texto_para_rag": "PROT-019 - Infectologia. Protocolo simulado para necessidade de isolamento. Aplicável quando o caso envolver necessidade de isolamento ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-019",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-020",
+    "versao": "1.1",
+    "area_clinica": "Infectologia",
+    "titulo": "Ferida infectada — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar ferida infectada ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "ferida",
+      "ferida infectada",
+      "infectada"
+    ],
+    "texto_para_rag": "PROT-020 - Infectologia. Protocolo simulado para ferida infectada. Aplicável quando o caso envolver ferida infectada ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-020",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-021",
+    "versao": "1.1",
+    "area_clinica": "Neurologia",
+    "titulo": "Déficit neurológico súbito — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar déficit neurológico súbito ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "déficit",
+      "déficit neurológico súbito",
+      "neurológico",
+      "súbito"
+    ],
+    "texto_para_rag": "PROT-021 - Neurologia. Protocolo simulado para déficit neurológico súbito. Aplicável quando o caso envolver déficit neurológico súbito ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-021",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-022",
+    "versao": "1.1",
+    "area_clinica": "Neurologia",
+    "titulo": "Convulsão — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar convulsão ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "convulsão"
+    ],
+    "texto_para_rag": "PROT-022 - Neurologia. Protocolo simulado para convulsão. Aplicável quando o caso envolver convulsão ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-022",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-023",
+    "versao": "1.1",
+    "area_clinica": "Neurologia",
+    "titulo": "Cefaleia súbita — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar cefaleia súbita ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "cefaleia",
+      "cefaleia súbita",
+      "súbita"
+    ],
+    "texto_para_rag": "PROT-023 - Neurologia. Protocolo simulado para cefaleia súbita. Aplicável quando o caso envolver cefaleia súbita ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-023",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-024",
+    "versao": "1.1",
+    "area_clinica": "Neurologia",
+    "titulo": "Confusão mental aguda — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar confusão mental aguda ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "aguda",
+      "confusão",
+      "confusão mental aguda",
+      "mental"
+    ],
+    "texto_para_rag": "PROT-024 - Neurologia. Protocolo simulado para confusão mental aguda. Aplicável quando o caso envolver confusão mental aguda ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-024",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-025",
+    "versao": "1.1",
+    "area_clinica": "Neurologia",
+    "titulo": "Tontura incapacitante — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar tontura incapacitante ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "incapacitante",
+      "tontura",
+      "tontura incapacitante"
+    ],
+    "texto_para_rag": "PROT-025 - Neurologia. Protocolo simulado para tontura incapacitante. Aplicável quando o caso envolver tontura incapacitante ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-025",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-026",
+    "versao": "1.1",
+    "area_clinica": "Clínica geral",
+    "titulo": "Síndrome respiratória leve — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "baixo",
+    "quando_utilizar": "Quando a interação clínica mencionar síndrome respiratória leve ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "leve",
+      "respiratória",
+      "síndrome",
+      "síndrome respiratória leve"
+    ],
+    "texto_para_rag": "PROT-026 - Clínica geral. Protocolo simulado para síndrome respiratória leve. Aplicável quando o caso envolver síndrome respiratória leve ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-026",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-027",
+    "versao": "1.1",
+    "area_clinica": "Clínica geral",
+    "titulo": "Mal-estar inespecífico — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "baixo",
+    "quando_utilizar": "Quando a interação clínica mencionar mal-estar inespecífico ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "inespecífico",
+      "mal-estar",
+      "mal-estar inespecífico"
+    ],
+    "texto_para_rag": "PROT-027 - Clínica geral. Protocolo simulado para mal-estar inespecífico. Aplicável quando o caso envolver mal-estar inespecífico ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-027",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-028",
+    "versao": "1.1",
+    "area_clinica": "Clínica geral",
+    "titulo": "Cefaleia sem sinais de alarme — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "baixo",
+    "quando_utilizar": "Quando a interação clínica mencionar cefaleia sem sinais de alarme ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "alarme",
+      "cefaleia",
+      "cefaleia sem sinais de alarme",
+      "sem",
+      "sinais"
+    ],
+    "texto_para_rag": "PROT-028 - Clínica geral. Protocolo simulado para cefaleia sem sinais de alarme. Aplicável quando o caso envolver cefaleia sem sinais de alarme ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-028",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-029",
+    "versao": "1.1",
+    "area_clinica": "Clínica geral",
+    "titulo": "Dor inespecífica — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "baixo",
+    "quando_utilizar": "Quando a interação clínica mencionar dor inespecífica ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "dor",
+      "dor inespecífica",
+      "inespecífica"
+    ],
+    "texto_para_rag": "PROT-029 - Clínica geral. Protocolo simulado para dor inespecífica. Aplicável quando o caso envolver dor inespecífica ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-029",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-030",
+    "versao": "1.1",
+    "area_clinica": "Clínica geral",
+    "titulo": "Fadiga recente — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "baixo",
+    "quando_utilizar": "Quando a interação clínica mencionar fadiga recente ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "fadiga",
+      "fadiga recente",
+      "recente"
+    ],
+    "texto_para_rag": "PROT-030 - Clínica geral. Protocolo simulado para fadiga recente. Aplicável quando o caso envolver fadiga recente ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-030",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-031",
+    "versao": "1.1",
+    "area_clinica": "Gastroenterologia",
+    "titulo": "Dor abdominal intensa — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar dor abdominal intensa ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "abdominal",
+      "dor",
+      "dor abdominal intensa",
+      "intensa"
+    ],
+    "texto_para_rag": "PROT-031 - Gastroenterologia. Protocolo simulado para dor abdominal intensa. Aplicável quando o caso envolver dor abdominal intensa ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-031",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-032",
+    "versao": "1.1",
+    "area_clinica": "Gastroenterologia",
+    "titulo": "Vômitos persistentes — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar vômitos persistentes ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "persistentes",
+      "vômitos",
+      "vômitos persistentes"
+    ],
+    "texto_para_rag": "PROT-032 - Gastroenterologia. Protocolo simulado para vômitos persistentes. Aplicável quando o caso envolver vômitos persistentes ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-032",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-033",
+    "versao": "1.1",
+    "area_clinica": "Gastroenterologia",
+    "titulo": "Sangramento digestivo — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar sangramento digestivo ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "digestivo",
+      "sangramento",
+      "sangramento digestivo"
+    ],
+    "texto_para_rag": "PROT-033 - Gastroenterologia. Protocolo simulado para sangramento digestivo. Aplicável quando o caso envolver sangramento digestivo ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-033",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-034",
+    "versao": "1.1",
+    "area_clinica": "Gastroenterologia",
+    "titulo": "Diarreia com desidratação — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar diarreia com desidratação ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "com",
+      "desidratação",
+      "diarreia",
+      "diarreia com desidratação"
+    ],
+    "texto_para_rag": "PROT-034 - Gastroenterologia. Protocolo simulado para diarreia com desidratação. Aplicável quando o caso envolver diarreia com desidratação ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-034",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-035",
+    "versao": "1.1",
+    "area_clinica": "Gastroenterologia",
+    "titulo": "Icterícia — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar icterícia ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "icterícia"
+    ],
+    "texto_para_rag": "PROT-035 - Gastroenterologia. Protocolo simulado para icterícia. Aplicável quando o caso envolver icterícia ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-035",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-036",
+    "versao": "1.1",
+    "area_clinica": "Nefrologia",
+    "titulo": "Oligúria — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar oligúria ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "oligúria"
+    ],
+    "texto_para_rag": "PROT-036 - Nefrologia. Protocolo simulado para oligúria. Aplicável quando o caso envolver oligúria ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-036",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-037",
+    "versao": "1.1",
+    "area_clinica": "Nefrologia",
+    "titulo": "Creatinina elevada — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar creatinina elevada ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "creatinina",
+      "creatinina elevada",
+      "elevada"
+    ],
+    "texto_para_rag": "PROT-037 - Nefrologia. Protocolo simulado para creatinina elevada. Aplicável quando o caso envolver creatinina elevada ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-037",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-038",
+    "versao": "1.1",
+    "area_clinica": "Nefrologia",
+    "titulo": "Edema — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar edema ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "edema"
+    ],
+    "texto_para_rag": "PROT-038 - Nefrologia. Protocolo simulado para edema. Aplicável quando o caso envolver edema ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-038",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-039",
+    "versao": "1.1",
+    "area_clinica": "Nefrologia",
+    "titulo": "Alteração de potássio — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar alteração de potássio ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "alteração",
+      "alteração de potássio",
+      "potássio"
+    ],
+    "texto_para_rag": "PROT-039 - Nefrologia. Protocolo simulado para alteração de potássio. Aplicável quando o caso envolver alteração de potássio ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-039",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-040",
+    "versao": "1.1",
+    "area_clinica": "Nefrologia",
+    "titulo": "Uso de medicação nefrotóxica — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar uso de medicação nefrotóxica ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "medicação",
+      "nefrotóxica",
+      "uso",
+      "uso de medicação nefrotóxica"
+    ],
+    "texto_para_rag": "PROT-040 - Nefrologia. Protocolo simulado para uso de medicação nefrotóxica. Aplicável quando o caso envolver uso de medicação nefrotóxica ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-040",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-041",
+    "versao": "1.1",
+    "area_clinica": "Geriatria",
+    "titulo": "Queda em pessoa idosa — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar queda em pessoa idosa ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "idosa",
+      "pessoa",
+      "queda",
+      "queda em pessoa idosa"
+    ],
+    "texto_para_rag": "PROT-041 - Geriatria. Protocolo simulado para queda em pessoa idosa. Aplicável quando o caso envolver queda em pessoa idosa ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-041",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-042",
+    "versao": "1.1",
+    "area_clinica": "Geriatria",
+    "titulo": "Delirium — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar delirium ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "delirium"
+    ],
+    "texto_para_rag": "PROT-042 - Geriatria. Protocolo simulado para delirium. Aplicável quando o caso envolver delirium ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-042",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-043",
+    "versao": "1.1",
+    "area_clinica": "Geriatria",
+    "titulo": "Polifarmácia — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar polifarmácia ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "polifarmácia"
+    ],
+    "texto_para_rag": "PROT-043 - Geriatria. Protocolo simulado para polifarmácia. Aplicável quando o caso envolver polifarmácia ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-043",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-044",
+    "versao": "1.1",
+    "area_clinica": "Geriatria",
+    "titulo": "Perda funcional — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar perda funcional ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "funcional",
+      "perda",
+      "perda funcional"
+    ],
+    "texto_para_rag": "PROT-044 - Geriatria. Protocolo simulado para perda funcional. Aplicável quando o caso envolver perda funcional ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-044",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-045",
+    "versao": "1.1",
+    "area_clinica": "Geriatria",
+    "titulo": "Fragilidade clínica — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar fragilidade clínica ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "clínica",
+      "fragilidade",
+      "fragilidade clínica"
+    ],
+    "texto_para_rag": "PROT-045 - Geriatria. Protocolo simulado para fragilidade clínica. Aplicável quando o caso envolver fragilidade clínica ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-045",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-046",
+    "versao": "1.1",
+    "area_clinica": "Pediatria",
+    "titulo": "Febre pediátrica — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar febre pediátrica ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "febre",
+      "febre pediátrica",
+      "pediátrica"
+    ],
+    "texto_para_rag": "PROT-046 - Pediatria. Protocolo simulado para febre pediátrica. Aplicável quando o caso envolver febre pediátrica ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-046",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-047",
+    "versao": "1.1",
+    "area_clinica": "Pediatria",
+    "titulo": "Recusa alimentar — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar recusa alimentar ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "alimentar",
+      "recusa",
+      "recusa alimentar"
+    ],
+    "texto_para_rag": "PROT-047 - Pediatria. Protocolo simulado para recusa alimentar. Aplicável quando o caso envolver recusa alimentar ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-047",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-048",
+    "versao": "1.1",
+    "area_clinica": "Pediatria",
+    "titulo": "Exantema — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar exantema ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "exantema"
+    ],
+    "texto_para_rag": "PROT-048 - Pediatria. Protocolo simulado para exantema. Aplicável quando o caso envolver exantema ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-048",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-049",
+    "versao": "1.1",
+    "area_clinica": "Pediatria",
+    "titulo": "Desidratação infantil — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar desidratação infantil ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "desidratação",
+      "desidratação infantil",
+      "infantil"
+    ],
+    "texto_para_rag": "PROT-049 - Pediatria. Protocolo simulado para desidratação infantil. Aplicável quando o caso envolver desidratação infantil ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-049",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-050",
+    "versao": "1.1",
+    "area_clinica": "Pediatria",
+    "titulo": "Sonolência em criança — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar sonolência em criança ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "criança",
+      "sonolência",
+      "sonolência em criança"
+    ],
+    "texto_para_rag": "PROT-050 - Pediatria. Protocolo simulado para sonolência em criança. Aplicável quando o caso envolver sonolência em criança ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-050",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-051",
+    "versao": "1.1",
+    "area_clinica": "Ortopedia",
+    "titulo": "Trauma com deformidade — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar trauma com deformidade ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "com",
+      "deformidade",
+      "trauma",
+      "trauma com deformidade"
+    ],
+    "texto_para_rag": "PROT-051 - Ortopedia. Protocolo simulado para trauma com deformidade. Aplicável quando o caso envolver trauma com deformidade ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-051",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-052",
+    "versao": "1.1",
+    "area_clinica": "Ortopedia",
+    "titulo": "Fratura suspeita — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar fratura suspeita ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "fratura",
+      "fratura suspeita",
+      "suspeita"
+    ],
+    "texto_para_rag": "PROT-052 - Ortopedia. Protocolo simulado para fratura suspeita. Aplicável quando o caso envolver fratura suspeita ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-052",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-053",
+    "versao": "1.1",
+    "area_clinica": "Ortopedia",
+    "titulo": "Dor lombar aguda — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar dor lombar aguda ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "aguda",
+      "dor",
+      "dor lombar aguda",
+      "lombar"
+    ],
+    "texto_para_rag": "PROT-053 - Ortopedia. Protocolo simulado para dor lombar aguda. Aplicável quando o caso envolver dor lombar aguda ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-053",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-054",
+    "versao": "1.1",
+    "area_clinica": "Ortopedia",
+    "titulo": "Dor articular — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar dor articular ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "articular",
+      "dor",
+      "dor articular"
+    ],
+    "texto_para_rag": "PROT-054 - Ortopedia. Protocolo simulado para dor articular. Aplicável quando o caso envolver dor articular ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-054",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-055",
+    "versao": "1.1",
+    "area_clinica": "Ortopedia",
+    "titulo": "Limitação funcional — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar limitação funcional ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "funcional",
+      "limitação",
+      "limitação funcional"
+    ],
+    "texto_para_rag": "PROT-055 - Ortopedia. Protocolo simulado para limitação funcional. Aplicável quando o caso envolver limitação funcional ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-055",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-056",
+    "versao": "1.1",
+    "area_clinica": "Psiquiatria",
+    "titulo": "Risco psicossocial — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar risco psicossocial ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "psicossocial",
+      "risco",
+      "risco psicossocial"
+    ],
+    "texto_para_rag": "PROT-056 - Psiquiatria. Protocolo simulado para risco psicossocial. Aplicável quando o caso envolver risco psicossocial ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-056",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-057",
+    "versao": "1.1",
+    "area_clinica": "Psiquiatria",
+    "titulo": "Agitação intensa — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar agitação intensa ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "agitação",
+      "agitação intensa",
+      "intensa"
+    ],
+    "texto_para_rag": "PROT-057 - Psiquiatria. Protocolo simulado para agitação intensa. Aplicável quando o caso envolver agitação intensa ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-057",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-058",
+    "versao": "1.1",
+    "area_clinica": "Psiquiatria",
+    "titulo": "Ansiedade incapacitante — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar ansiedade incapacitante ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "ansiedade",
+      "ansiedade incapacitante",
+      "incapacitante"
+    ],
+    "texto_para_rag": "PROT-058 - Psiquiatria. Protocolo simulado para ansiedade incapacitante. Aplicável quando o caso envolver ansiedade incapacitante ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-058",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-059",
+    "versao": "1.1",
+    "area_clinica": "Psiquiatria",
+    "titulo": "Ideação suicida — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar ideação suicida ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "ideação",
+      "ideação suicida",
+      "suicida"
+    ],
+    "texto_para_rag": "PROT-059 - Psiquiatria. Protocolo simulado para ideação suicida. Aplicável quando o caso envolver ideação suicida ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-059",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-060",
+    "versao": "1.1",
+    "area_clinica": "Psiquiatria",
+    "titulo": "Insônia grave — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar insônia grave ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "grave",
+      "insônia",
+      "insônia grave"
+    ],
+    "texto_para_rag": "PROT-060 - Psiquiatria. Protocolo simulado para insônia grave. Aplicável quando o caso envolver insônia grave ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-060",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-061",
+    "versao": "1.1",
+    "area_clinica": "Dermatologia",
+    "titulo": "Lesão cutânea infectada — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "baixo",
+    "quando_utilizar": "Quando a interação clínica mencionar lesão cutânea infectada ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "cutânea",
+      "infectada",
+      "lesão",
+      "lesão cutânea infectada"
+    ],
+    "texto_para_rag": "PROT-061 - Dermatologia. Protocolo simulado para lesão cutânea infectada. Aplicável quando o caso envolver lesão cutânea infectada ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-061",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-062",
+    "versao": "1.1",
+    "area_clinica": "Dermatologia",
+    "titulo": "Urticária — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "baixo",
+    "quando_utilizar": "Quando a interação clínica mencionar urticária ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "urticária"
+    ],
+    "texto_para_rag": "PROT-062 - Dermatologia. Protocolo simulado para urticária. Aplicável quando o caso envolver urticária ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-062",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-063",
+    "versao": "1.1",
+    "area_clinica": "Dermatologia",
+    "titulo": "Queimadura leve — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "baixo",
+    "quando_utilizar": "Quando a interação clínica mencionar queimadura leve ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "leve",
+      "queimadura",
+      "queimadura leve"
+    ],
+    "texto_para_rag": "PROT-063 - Dermatologia. Protocolo simulado para queimadura leve. Aplicável quando o caso envolver queimadura leve ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-063",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-064",
+    "versao": "1.1",
+    "area_clinica": "Dermatologia",
+    "titulo": "Celulite suspeita — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "baixo",
+    "quando_utilizar": "Quando a interação clínica mencionar celulite suspeita ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "celulite",
+      "celulite suspeita",
+      "suspeita"
+    ],
+    "texto_para_rag": "PROT-064 - Dermatologia. Protocolo simulado para celulite suspeita. Aplicável quando o caso envolver celulite suspeita ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-064",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-065",
+    "versao": "1.1",
+    "area_clinica": "Dermatologia",
+    "titulo": "Lesão crônica — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "baixo",
+    "quando_utilizar": "Quando a interação clínica mencionar lesão crônica ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "crônica",
+      "lesão",
+      "lesão crônica"
+    ],
+    "texto_para_rag": "PROT-065 - Dermatologia. Protocolo simulado para lesão crônica. Aplicável quando o caso envolver lesão crônica ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-065",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-066",
+    "versao": "1.1",
+    "area_clinica": "Hematologia",
+    "titulo": "Anemia sintomática — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar anemia sintomática ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "anemia",
+      "anemia sintomática",
+      "sintomática"
+    ],
+    "texto_para_rag": "PROT-066 - Hematologia. Protocolo simulado para anemia sintomática. Aplicável quando o caso envolver anemia sintomática ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-066",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-067",
+    "versao": "1.1",
+    "area_clinica": "Hematologia",
+    "titulo": "Plaquetopenia — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar plaquetopenia ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "plaquetopenia"
+    ],
+    "texto_para_rag": "PROT-067 - Hematologia. Protocolo simulado para plaquetopenia. Aplicável quando o caso envolver plaquetopenia ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-067",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-068",
+    "versao": "1.1",
+    "area_clinica": "Hematologia",
+    "titulo": "Sangramento espontâneo — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar sangramento espontâneo ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "espontâneo",
+      "sangramento",
+      "sangramento espontâneo"
+    ],
+    "texto_para_rag": "PROT-068 - Hematologia. Protocolo simulado para sangramento espontâneo. Aplicável quando o caso envolver sangramento espontâneo ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-068",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-069",
+    "versao": "1.1",
+    "area_clinica": "Hematologia",
+    "titulo": "Trombose suspeita — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar trombose suspeita ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "suspeita",
+      "trombose",
+      "trombose suspeita"
+    ],
+    "texto_para_rag": "PROT-069 - Hematologia. Protocolo simulado para trombose suspeita. Aplicável quando o caso envolver trombose suspeita ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-069",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-070",
+    "versao": "1.1",
+    "area_clinica": "Hematologia",
+    "titulo": "Alteração de hemograma — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar alteração de hemograma ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "alteração",
+      "alteração de hemograma",
+      "hemograma"
+    ],
+    "texto_para_rag": "PROT-070 - Hematologia. Protocolo simulado para alteração de hemograma. Aplicável quando o caso envolver alteração de hemograma ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-070",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-071",
+    "versao": "1.1",
+    "area_clinica": "Emergência",
+    "titulo": "Instabilidade clínica — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar instabilidade clínica ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "clínica",
+      "instabilidade",
+      "instabilidade clínica"
+    ],
+    "texto_para_rag": "PROT-071 - Emergência. Protocolo simulado para instabilidade clínica. Aplicável quando o caso envolver instabilidade clínica ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-071",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-072",
+    "versao": "1.1",
+    "area_clinica": "Emergência",
+    "titulo": "Alteração do nível de consciência — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar alteração do nível de consciência ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "alteração",
+      "alteração do nível de consciência",
+      "consciência",
+      "nível"
+    ],
+    "texto_para_rag": "PROT-072 - Emergência. Protocolo simulado para alteração do nível de consciência. Aplicável quando o caso envolver alteração do nível de consciência ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-072",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-073",
+    "versao": "1.1",
+    "area_clinica": "Emergência",
+    "titulo": "Dor intensa — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar dor intensa ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "dor",
+      "dor intensa",
+      "intensa"
+    ],
+    "texto_para_rag": "PROT-073 - Emergência. Protocolo simulado para dor intensa. Aplicável quando o caso envolver dor intensa ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-073",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-074",
+    "versao": "1.1",
+    "area_clinica": "Emergência",
+    "titulo": "Sangramento ativo — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar sangramento ativo ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "ativo",
+      "sangramento",
+      "sangramento ativo"
+    ],
+    "texto_para_rag": "PROT-074 - Emergência. Protocolo simulado para sangramento ativo. Aplicável quando o caso envolver sangramento ativo ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-074",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-075",
+    "versao": "1.1",
+    "area_clinica": "Emergência",
+    "titulo": "Classificação de risco — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "alto",
+    "quando_utilizar": "Quando a interação clínica mencionar classificação de risco ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "classificação",
+      "classificação de risco",
+      "risco"
+    ],
+    "texto_para_rag": "PROT-075 - Emergência. Protocolo simulado para classificação de risco. Aplicável quando o caso envolver classificação de risco ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-075",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-076",
+    "versao": "1.1",
+    "area_clinica": "Farmácia clínica",
+    "titulo": "Reconciliação medicamentosa — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar reconciliação medicamentosa ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "medicamentosa",
+      "reconciliação",
+      "reconciliação medicamentosa"
+    ],
+    "texto_para_rag": "PROT-076 - Farmácia clínica. Protocolo simulado para reconciliação medicamentosa. Aplicável quando o caso envolver reconciliação medicamentosa ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-076",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-077",
+    "versao": "1.1",
+    "area_clinica": "Farmácia clínica",
+    "titulo": "Evento adverso medicamentoso — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar evento adverso medicamentoso ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "adverso",
+      "evento",
+      "evento adverso medicamentoso",
+      "medicamentoso"
+    ],
+    "texto_para_rag": "PROT-077 - Farmácia clínica. Protocolo simulado para evento adverso medicamentoso. Aplicável quando o caso envolver evento adverso medicamentoso ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-077",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-078",
+    "versao": "1.1",
+    "area_clinica": "Farmácia clínica",
+    "titulo": "Interação medicamentosa — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar interação medicamentosa ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "interação",
+      "interação medicamentosa",
+      "medicamentosa"
+    ],
+    "texto_para_rag": "PROT-078 - Farmácia clínica. Protocolo simulado para interação medicamentosa. Aplicável quando o caso envolver interação medicamentosa ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-078",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-079",
+    "versao": "1.1",
+    "area_clinica": "Farmácia clínica",
+    "titulo": "Alergia medicamentosa — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar alergia medicamentosa ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "alergia",
+      "alergia medicamentosa",
+      "medicamentosa"
+    ],
+    "texto_para_rag": "PROT-079 - Farmácia clínica. Protocolo simulado para alergia medicamentosa. Aplicável quando o caso envolver alergia medicamentosa ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-079",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  },
+  {
+    "id_protocolo": "PROT-080",
+    "versao": "1.1",
+    "area_clinica": "Farmácia clínica",
+    "titulo": "Adesão ao tratamento — fluxo de apoio clínico",
+    "tipo_documento": "protocolo_hospitalar_ficticio",
+    "nivel_risco_padrao": "médio",
+    "quando_utilizar": "Quando a interação clínica mencionar adesão ao tratamento ou quadro compatível que exija triagem e organização dos dados.",
+    "dados_minimos_para_contexto": [
+      "queixa_principal",
+      "tempo_de_evolucao",
+      "sinais_vitais",
+      "comorbidades",
+      "medicamentos_em_uso",
+      "exames_disponiveis",
+      "sinais_de_alerta"
+    ],
+    "fluxo_resumido": [
+      "confirmar a pergunta ou queixa principal",
+      "buscar dados estruturados do paciente quando houver identificador sintético",
+      "recuperar o protocolo mais aderente ao caso",
+      "avaliar nível de risco com base em sinais de alerta",
+      "gerar resposta objetiva com fonte e limitações",
+      "encaminhar a resposta para validação humana"
+    ],
+    "limites_do_assistente": [
+      "não prescrever medicamentos",
+      "não definir diagnóstico definitivo",
+      "não liberar paciente sem avaliação profissional",
+      "não omitir incertezas ou dados faltantes",
+      "não substituir protocolos institucionais reais"
+    ],
+    "validacao_humana_obrigatoria": true,
+    "perfil_validador": "profissional de saúde responsável pela área ou equipe assistencial",
+    "palavras_chave_para_recuperacao": [
+      "adesão",
+      "adesão ao tratamento",
+      "tratamento"
+    ],
+    "texto_para_rag": "PROT-080 - Farmácia clínica. Protocolo simulado para adesão ao tratamento. Aplicável quando o caso envolver adesão ao tratamento ou sinais relacionados. Dados mínimos: queixa principal, tempo de evolução, sinais vitais, comorbidades, medicamentos em uso, exames disponíveis e sinais de alerta. Fluxo: identificar sinais de alerta, classificar prioridade, consultar registros estruturados, organizar resposta com fonte e solicitar validação humana. Limite: não prescrever, não diagnosticar definitivamente, não liberar paciente e não substituir profissional habilitado.",
+    "fonte_simulada": "Hospital Fictício São Lucas | Manual Interno | PROT-080",
+    "observacao_curadoria": "Registro sintético, revisado para uso acadêmico em RAG, fine-tuning e explainability."
+  }
+]

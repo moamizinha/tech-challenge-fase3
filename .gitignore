@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode / IntelliJ
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ollama / models
+models/
+
+# Logs
+*.log

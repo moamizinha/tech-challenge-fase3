@@ -1,0 +1,2722 @@
+[
+  {
+    "id_conduta": "COND-001",
+    "protocolo_relacionado": "PROT-001",
+    "cenario": "Dor torácica — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-002",
+    "protocolo_relacionado": "PROT-002",
+    "cenario": "Palpitações — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-003",
+    "protocolo_relacionado": "PROT-003",
+    "cenario": "Síncope — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-004",
+    "protocolo_relacionado": "PROT-004",
+    "cenario": "Pressão arterial elevada — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-005",
+    "protocolo_relacionado": "PROT-005",
+    "cenario": "Edema em membros inferiores — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-006",
+    "protocolo_relacionado": "PROT-006",
+    "cenario": "Hipoglicemia — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-007",
+    "protocolo_relacionado": "PROT-007",
+    "cenario": "Hiperglicemia — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-008",
+    "protocolo_relacionado": "PROT-008",
+    "cenario": "Descompensação diabética — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-009",
+    "protocolo_relacionado": "PROT-009",
+    "cenario": "Alteração tireoidiana — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-010",
+    "protocolo_relacionado": "PROT-010",
+    "cenario": "Perda de peso inexplicada — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-011",
+    "protocolo_relacionado": "PROT-011",
+    "cenario": "Dispneia — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-012",
+    "protocolo_relacionado": "PROT-012",
+    "cenario": "Baixa saturação — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-013",
+    "protocolo_relacionado": "PROT-013",
+    "cenario": "Tosse persistente — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-014",
+    "protocolo_relacionado": "PROT-014",
+    "cenario": "Chiado no peito — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-015",
+    "protocolo_relacionado": "PROT-015",
+    "cenario": "Dor pleurítica — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-016",
+    "protocolo_relacionado": "PROT-016",
+    "cenario": "Febre com hipotensão — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-017",
+    "protocolo_relacionado": "PROT-017",
+    "cenario": "Suspeita de sepse — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-018",
+    "protocolo_relacionado": "PROT-018",
+    "cenario": "Infecção pós-procedimento — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-019",
+    "protocolo_relacionado": "PROT-019",
+    "cenario": "Necessidade de isolamento — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-020",
+    "protocolo_relacionado": "PROT-020",
+    "cenario": "Ferida infectada — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-021",
+    "protocolo_relacionado": "PROT-021",
+    "cenario": "Déficit neurológico súbito — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-022",
+    "protocolo_relacionado": "PROT-022",
+    "cenario": "Convulsão — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-023",
+    "protocolo_relacionado": "PROT-023",
+    "cenario": "Cefaleia súbita — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-024",
+    "protocolo_relacionado": "PROT-024",
+    "cenario": "Confusão mental aguda — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-025",
+    "protocolo_relacionado": "PROT-025",
+    "cenario": "Tontura incapacitante — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-026",
+    "protocolo_relacionado": "PROT-026",
+    "cenario": "Síndrome respiratória leve — fluxo de apoio clínico",
+    "nivel_risco": "baixo",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-027",
+    "protocolo_relacionado": "PROT-027",
+    "cenario": "Mal-estar inespecífico — fluxo de apoio clínico",
+    "nivel_risco": "baixo",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-028",
+    "protocolo_relacionado": "PROT-028",
+    "cenario": "Cefaleia sem sinais de alarme — fluxo de apoio clínico",
+    "nivel_risco": "baixo",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-029",
+    "protocolo_relacionado": "PROT-029",
+    "cenario": "Dor inespecífica — fluxo de apoio clínico",
+    "nivel_risco": "baixo",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-030",
+    "protocolo_relacionado": "PROT-030",
+    "cenario": "Fadiga recente — fluxo de apoio clínico",
+    "nivel_risco": "baixo",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-031",
+    "protocolo_relacionado": "PROT-031",
+    "cenario": "Dor abdominal intensa — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-032",
+    "protocolo_relacionado": "PROT-032",
+    "cenario": "Vômitos persistentes — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-033",
+    "protocolo_relacionado": "PROT-033",
+    "cenario": "Sangramento digestivo — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-034",
+    "protocolo_relacionado": "PROT-034",
+    "cenario": "Diarreia com desidratação — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-035",
+    "protocolo_relacionado": "PROT-035",
+    "cenario": "Icterícia — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-036",
+    "protocolo_relacionado": "PROT-036",
+    "cenario": "Oligúria — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-037",
+    "protocolo_relacionado": "PROT-037",
+    "cenario": "Creatinina elevada — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-038",
+    "protocolo_relacionado": "PROT-038",
+    "cenario": "Edema — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-039",
+    "protocolo_relacionado": "PROT-039",
+    "cenario": "Alteração de potássio — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-040",
+    "protocolo_relacionado": "PROT-040",
+    "cenario": "Uso de medicação nefrotóxica — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-041",
+    "protocolo_relacionado": "PROT-041",
+    "cenario": "Queda em pessoa idosa — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-042",
+    "protocolo_relacionado": "PROT-042",
+    "cenario": "Delirium — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-043",
+    "protocolo_relacionado": "PROT-043",
+    "cenario": "Polifarmácia — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-044",
+    "protocolo_relacionado": "PROT-044",
+    "cenario": "Perda funcional — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-045",
+    "protocolo_relacionado": "PROT-045",
+    "cenario": "Fragilidade clínica — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-046",
+    "protocolo_relacionado": "PROT-046",
+    "cenario": "Febre pediátrica — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-047",
+    "protocolo_relacionado": "PROT-047",
+    "cenario": "Recusa alimentar — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-048",
+    "protocolo_relacionado": "PROT-048",
+    "cenario": "Exantema — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-049",
+    "protocolo_relacionado": "PROT-049",
+    "cenario": "Desidratação infantil — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-050",
+    "protocolo_relacionado": "PROT-050",
+    "cenario": "Sonolência em criança — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-051",
+    "protocolo_relacionado": "PROT-051",
+    "cenario": "Trauma com deformidade — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-052",
+    "protocolo_relacionado": "PROT-052",
+    "cenario": "Fratura suspeita — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-053",
+    "protocolo_relacionado": "PROT-053",
+    "cenario": "Dor lombar aguda — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-054",
+    "protocolo_relacionado": "PROT-054",
+    "cenario": "Dor articular — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-055",
+    "protocolo_relacionado": "PROT-055",
+    "cenario": "Limitação funcional — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-056",
+    "protocolo_relacionado": "PROT-056",
+    "cenario": "Risco psicossocial — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-057",
+    "protocolo_relacionado": "PROT-057",
+    "cenario": "Agitação intensa — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-058",
+    "protocolo_relacionado": "PROT-058",
+    "cenario": "Ansiedade incapacitante — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-059",
+    "protocolo_relacionado": "PROT-059",
+    "cenario": "Ideação suicida — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-060",
+    "protocolo_relacionado": "PROT-060",
+    "cenario": "Insônia grave — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-061",
+    "protocolo_relacionado": "PROT-061",
+    "cenario": "Lesão cutânea infectada — fluxo de apoio clínico",
+    "nivel_risco": "baixo",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-062",
+    "protocolo_relacionado": "PROT-062",
+    "cenario": "Urticária — fluxo de apoio clínico",
+    "nivel_risco": "baixo",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-063",
+    "protocolo_relacionado": "PROT-063",
+    "cenario": "Queimadura leve — fluxo de apoio clínico",
+    "nivel_risco": "baixo",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-064",
+    "protocolo_relacionado": "PROT-064",
+    "cenario": "Celulite suspeita — fluxo de apoio clínico",
+    "nivel_risco": "baixo",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-065",
+    "protocolo_relacionado": "PROT-065",
+    "cenario": "Lesão crônica — fluxo de apoio clínico",
+    "nivel_risco": "baixo",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-066",
+    "protocolo_relacionado": "PROT-066",
+    "cenario": "Anemia sintomática — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-067",
+    "protocolo_relacionado": "PROT-067",
+    "cenario": "Plaquetopenia — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-068",
+    "protocolo_relacionado": "PROT-068",
+    "cenario": "Sangramento espontâneo — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-069",
+    "protocolo_relacionado": "PROT-069",
+    "cenario": "Trombose suspeita — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-070",
+    "protocolo_relacionado": "PROT-070",
+    "cenario": "Alteração de hemograma — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-071",
+    "protocolo_relacionado": "PROT-071",
+    "cenario": "Instabilidade clínica — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-072",
+    "protocolo_relacionado": "PROT-072",
+    "cenario": "Alteração do nível de consciência — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-073",
+    "protocolo_relacionado": "PROT-073",
+    "cenario": "Dor intensa — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-074",
+    "protocolo_relacionado": "PROT-074",
+    "cenario": "Sangramento ativo — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-075",
+    "protocolo_relacionado": "PROT-075",
+    "cenario": "Classificação de risco — fluxo de apoio clínico",
+    "nivel_risco": "alto",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-076",
+    "protocolo_relacionado": "PROT-076",
+    "cenario": "Reconciliação medicamentosa — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-077",
+    "protocolo_relacionado": "PROT-077",
+    "cenario": "Evento adverso medicamentoso — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-078",
+    "protocolo_relacionado": "PROT-078",
+    "cenario": "Interação medicamentosa — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-079",
+    "protocolo_relacionado": "PROT-079",
+    "cenario": "Alergia medicamentosa — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  },
+  {
+    "id_conduta": "COND-080",
+    "protocolo_relacionado": "PROT-080",
+    "cenario": "Adesão ao tratamento — fluxo de apoio clínico",
+    "nivel_risco": "médio",
+    "acoes_permitidas_ao_assistente": [
+      "organizar informações clínicas fornecidas",
+      "sugerir dados faltantes a confirmar",
+      "indicar protocolo interno simulado usado como fonte",
+      "classificar prioridade de forma conservadora",
+      "recomendar validação humana"
+    ],
+    "acoes_bloqueadas_ao_assistente": [
+      "prescrever medicamentos",
+      "definir diagnóstico definitivo",
+      "liberar paciente",
+      "substituir avaliação profissional",
+      "ocultar incertezas ou ausência de dados"
+    ],
+    "mensagem_padrao_de_segurança": "Esta resposta é apoio à decisão e deve ser validada por profissional habilitado. Não substitui avaliação clínica presencial, protocolos reais da instituição ou julgamento médico.",
+    "validacao_necessaria": "profissional de saúde responsável pela área ou equipe assistencial",
+    "campos_de_log_recomendados": [
+      "timestamp",
+      "id_usuario_ou_perfil",
+      "id_paciente_sintetico",
+      "pergunta_original",
+      "protocolo_recuperado",
+      "resposta_gerada",
+      "nivel_risco",
+      "status_validacao_humana",
+      "observacoes_de_auditoria"
+    ],
+    "criterio_de_bloqueio": "Bloquear ou reescrever resposta quando houver prescrição direta, diagnóstico fechado, ausência de fonte em resposta clínica, ou tentativa de substituir decisão profissional."
+  }
+]
